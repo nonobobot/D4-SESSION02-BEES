@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mimi l'abeille raconte</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.png">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+
+			<h1>La pollinisation avec Mimi l'abeille
+			</h1>
+
+
+
+			<!--<nav>
+				<a href="http://tympanus.net/Blueprints/FilterableProductGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+				a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/iphone.png" alt="iPhone" />
+						<div class="preview">
+							<img src="images/mimi3.png" alt="fish" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Utilise la loupe pour suivre Mimi l'abeille à chaque étape !</span>Tu vas voir c'est facile !</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/ipad.png" alt="iPad Mini" />
+						<div class="preview">
+							<img src="images/mimi5.png" alt="fish" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Étape 1</span>Mimi est prête pour partir à la recherche d'une jolie fleur</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/macbook.png" alt="MacBook" />
+						<div class="preview">
+							<img src="images/mimi6.png" alt="fish" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Étape2</span>Mimi récupère tout le pollen de la petite fleur</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/imac.png" alt="iMac" />
+						<div class="preview">
+							<img src="images/mimi7.png" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Étape 3</span>Mimi l'abeille part trouver une nouvelle fleur après avoir pris tout le pollen !</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/apple-watch.png" alt="Apple Watch" />
+						<div class="preview rounded">
+							<img src="images/mimi8.png" alt="fish" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Étape 4</span>C'est la pollinisation !</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/mimi13.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Mimi la petite abeille travailleuse</h2>
+					<h3>Les fleurs ont besoin de Mimi !</h3>
+					<p>Eh oui !C'est grâce aux abeilles comme Mimi que tu peux voir de jolies champs de fleurs ! Pas de Mimi, pas de pollen, pas de pollinisation, pas de graines, pas de fleurs. C'est un juste équilibre apporté par les petites abeilles.</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/mimi9.png" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>Étape 1</h2>
+					<h3>Il est l'heure de partir Mimi ! </h3>
+					<p>C'est l'heure ! Mimi sort de sa maison toute excitée à l'idée de cette nouvelle journée.
+						Il faut bien travailler pour aider la ruche à récolter du miel, Mimi à beaucoup de choses à faire ! Mais quelle fleur choisir ?
+						Marguerite, coquelicot, pissenlit,...il y a beaucoup trop de fleurs pour Mimi ! Quand soudain elle remarque au loin une petite paquerette toute coquette perdue entre 2 marguerites
+				  </p>
+						<!-- <p><a href="https://www.apple.com/ipad-mini-3/performance/">Learn more about Performance &xrarr;</a></p> -->
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/mimi11-10.png" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>Étape 2</h2>
+					<h3>À table !</h3>
+					<p>Sur de son choix Mimi s'envole et se pose sur la jolie marguerite qui lui semblait parfaite pour ce début de journée. Elle récupère le pollen pendant que ses petites pattes se retrouvent toute collées ! </p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/mimi10.png" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>Étape 3</h2>
+					<h3>Aurevoir petite marguerite à la prochaine</h3>
+					<p>Ça y est Mimi a récupéré plus de pollen qu'il n'en faut il est l'heure de laisser la petite fleur tranquille et d'aller en trouver une nouvelle. Mimi s'envole laissant trainer sur son passage un peu de pollen qui s'était collé à elle un peu plus tôt.</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/mimi12.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Étape 4</h2>
+					<h3>Mimi est ravie ! Elle a bien fait son travail mais oups ! la journée ne fait que commencer il ne faut pas se déconcentrer !</h3>
+					<p>Eh oui grace à ce transport de pollen Mimi a permit la pollinisation : on dit donc que Mimi est un pollinisateur !</p>
+
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
